@@ -1,7 +1,7 @@
 {
-  "name": "Typescript-Webpack-Boilerplate",
-  "version": "1.0.0",
-  "description": "",
+  "name": "typescript-webpack-boilerplate",
+  "version": "1.0.1",
+  "description": "A typescript-react-webpack boilerplate",
   "main": "index.js",
   "entry": {
     "index": "./src/Index.tsx"
@@ -10,7 +10,7 @@
     "start": "node server.js",
     "build": "webpack"
   },
-  "author": "",
+  "author": "Mashiro Wang",
   "license": "ISC",
   "dependencies": {
     "@types/react": "^16.0.5",
