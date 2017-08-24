@@ -6,7 +6,7 @@ npm-debug.log
 !webpack*config.js
 !bin/*
 .idea/
-
+.awcache/
 
 # https://github.com/github/gitignore/blob/master/Global/macOS.gitignore
 *.DS_Store
