@@ -1,0 +1,8 @@
+{
+  "plugins": [
+    "external-helpers"
+  ],
+  "presets": [
+    "es2015-loose"
+  ]
+}
