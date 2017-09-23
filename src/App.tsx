@@ -1,11 +1,19 @@
 import * as React from "react"
 
-class App extends React.Component {
+interface AppProps {
+  compiler: string
+  framework: string
+}
+
+class App extends React.Component<AppProps, undefined> {
   render() {
     return (
-      <h1>Hello World</h1>
+      <h1>Hello World from {this.props.compiler} and {this.props.framework}!</h1>
     )
   }
 }
 
-export default App;
+export {
+  App,
+  AppProps,
+}

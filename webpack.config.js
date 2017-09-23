@@ -37,7 +37,7 @@ const config = {
       },
       {
         test: /\.tsx?$/,
-        loaders: ['babel-loader?cacheDirectory', 'awesome-typescript-loader?tsconfig.tsconfig.webpack.json&useCache=true']
+        loaders: ['babel-loader?cacheDirectory', 'awesome-typescript-loader?tsconfig=tsconfig.json&useCache=true']
       },
       {
         test: /\.css$/,
